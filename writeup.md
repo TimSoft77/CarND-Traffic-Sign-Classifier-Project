@@ -16,11 +16,11 @@ The goals / steps of this project are the following:
 [image1]: ./writeup_images/unpreprocessed_image.png "Original image"
 [image2]: ./writeup_images/preprocessed_image_y_channel.png "Preprocessed Image Y Channel"
 [image8]: ./writeup_images/probabilities.PNG
-[image3]: ./web_traffic_signs/no entry (16).jpg "LKJSKD"
-[image4]: ./web_traffic_signs/pedestrians (27).jpg
-[image5]: ./web_traffic_signs/road work (25).jpg
-[image6]: ./web_traffic_signs/speed limit 30 (1).jpg
-[image7]: ./web_traffic_signs/stop (14).jpg
+[image3]: ./web_traffic_signs_for_writeup/noEntry.jpg "No Entry"
+[image4]: ./web_traffic_signs_for_writeup/pedestrians.jpg "Pedestrians"
+[image5]: ./web_traffic_signs_for_writeup/roadWork.jpg "Road Work"
+[image6]: ./web_traffic_signs_for_writeup/speedLimit30.jpg "Speed Limit 30 km/h"
+[image7]: ./web_traffic_signs_for_writeup/stop.jpg "Stop"
 
 ### Data Set Summary & Exploration
 
