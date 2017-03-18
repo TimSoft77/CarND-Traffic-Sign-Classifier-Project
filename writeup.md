@@ -13,14 +13,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./writeup_images/unpreprocessed_image.png
-[image2]: ./writeup_images/preprocessed_image_y_channel.png
-[image3]: (./web_traffic_signs/no entry (17).jpg) "No Entry"
+[image1]: ./writeup_images/unpreprocessed_image.png "Original image"
+[image2]: ./writeup_images/preprocessed_image_y_channel.png "Preprocessed Image Y Channel"
+[image8]: ./writeup_images/probabilities.PNG
+[image3]: ./web_traffic_signs/no entry (16).jpg "LKJSKD"
 [image4]: ./web_traffic_signs/pedestrians (27).jpg
 [image5]: ./web_traffic_signs/road work (25).jpg
 [image6]: ./web_traffic_signs/speed limit 30 (1).jpg
 [image7]: ./web_traffic_signs/stop (14).jpg
-[image8]: ./writeup_images/probabilities.PNG
 
 ### Data Set Summary & Exploration
 
@@ -104,15 +104,8 @@ My process for finding a solution went like this:
 
 Here are five German traffic signs that I found on the web.  I manually (i.e., through Windows Photos app) cropped out a square region around the images of the signs.  Upon loading them in Ipython, I used OpenCV to resize them to 32x32 and convert from BGR to RGB.
 
-![alt text][image3] 
-
-![alt text][image4] 
-
-![alt text][image5] 
-
-![alt text][image6] 
-
-![alt text][image7]
+![alt text][image3] ![alt text][image4] ![alt text][image5] 
+![alt text][image6] ![alt text][image7]
 
 I expected the stop and pedestrians images to be easy to classify.  The no entry image is at an angle, and the other two images have a lot of noise in their backgrounds, which may have made them difficult.
 
