@@ -104,8 +104,15 @@ My process for finding a solution went like this:
 
 Here are five German traffic signs that I found on the web.  I manually (i.e., through Windows Photos app) cropped out a square region around the images of the signs.  Upon loading them in Ipython, I used OpenCV to resize them to 32x32 and convert from BGR to RGB.
 
-![alt text][image3] ![alt text][image4] ![alt text][image5] 
-![alt text][image6] ![alt text][image7]
+![alt text][image3] 
+
+![alt text][image4] 
+
+![alt text][image5] 
+
+![alt text][image6] 
+
+![alt text][image7]
 
 I expected the stop and pedestrians images to be easy to classify.  The no entry image is at an angle, and the other two images have a lot of noise in their backgrounds, which may have made them difficult.
 
